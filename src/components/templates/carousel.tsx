@@ -32,7 +32,7 @@ export default function carousel () {
               
               <img
                 className='rounded-3xl'
-                src="/Mayne.png"
+                src="/Mayne.webp"
                 width={64}
                 height={64}
                 alt="cruz"
@@ -44,7 +44,7 @@ export default function carousel () {
                 <Image
                   className='rounded-3xl mt-4'
                   quality={100}
-                  src="/FG.png"
+                  src="/FG.webp"
                   width={64}
                   height={64}
                   alt="cruz"
@@ -63,7 +63,7 @@ export default function carousel () {
               
               <img
                 className='rounded-3xl'
-                src="/Isabela.png"
+                src="/Isabela.webp"
                 width={64}
                 height={64}
                 alt="cruz"
@@ -74,7 +74,7 @@ export default function carousel () {
                 <p className='text-xs text-gray-500'>fundadora</p>
                 <img
                   className='rounded-3xl mt-4'
-                  src="/FG.png"
+                  src="/FG.webp"
                   width={64}
                   height={64}
                   alt="cruz"
@@ -93,7 +93,7 @@ export default function carousel () {
               
               <img
                 className='rounded-3xl'
-                src="/Juliana.png"
+                src="/Juliana.webp"
                 width={64}
                 height={64}
                 alt="cruz"
@@ -104,7 +104,7 @@ export default function carousel () {
                 <p className='text-xs text-gray-500'>fundadora</p>
                 <img
                   className='rounded-3xl mt-4'
-                  src="/FG.png"
+                  src="/FG.webp"
                   width={64}
                   height={64}
                   alt="cruz"
@@ -123,7 +123,7 @@ export default function carousel () {
               
               <img
                 className='rounded-3xl'
-                src="/Lorena.png"
+                src="/Lorena.webp"
                 width={64}
                 height={64}
                 alt="cruz"
@@ -134,7 +134,7 @@ export default function carousel () {
                 <p className='text-xs text-gray-500'>fundadora</p>
                 <img
                   className='rounded-3xl mt-4'
-                  src="/FG.png"
+                  src="/FG.webp"
                   width={64}
                   height={64}
                   alt="cruz"

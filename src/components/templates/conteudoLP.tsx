@@ -9,8 +9,6 @@ import 'swiper/css';
 import LandpageRodape from "./rodapeLP";
 import Carousel from "./carousel";
 
-
-
 const words = ["Fé", "Networking", "Sucesso", "Colaboração"];
 
 export default function LandpageConteudo() {
@@ -60,7 +58,7 @@ export default function LandpageConteudo() {
 
         <div className="w-full">
             <div className="bg-[#C35850] w-full flex justify-center">
-                <div className={`h-72 pb-36 md:pb-64 pt-96 md:pt-72 max-w-8xl lg:pt-72 w-full flex items-end md:items-center justify-center md:justify-start transition-all bg-no-repeat bg-end md:bg-center bg-cover bg-[url('/Banner.png')]`}>
+                <div className={`h-72 pb-36 md:pb-64 pt-96 md:pt-72 max-w-8xl lg:pt-72 w-full flex items-end md:items-center justify-center md:justify-start transition-all bg-no-repeat bg-end md:bg-center bg-cover bg-[url('/Banner.webp')]`}>
 
                     <div className='flex justify-center'>
                         <div className='lg:px-28 md:px-10 px-3 flex max-w-5xl'>
@@ -71,7 +69,10 @@ export default function LandpageConteudo() {
                                     <h2 className='sm:text-7xl'>EXÉRCITO DE </h2>
                                     <h2 className='sm:text-7xl'>MULHERES</h2>
                                     <h2 className='sm:text-7xl'>PRÓSPERAS!</h2>
+
+                                   <Icon nameIcon= 'IconFacebook' widhtIcon = '60' heightIcon = '60' fillIcon = 'black' classNameIcon = 'p-0'/>
                                 </div>
+
 
                                 <div className='pt-14 pl-1'>
                                     <Link to="eventos" smooth={true} duration={1000} className="cursor-pointer">
@@ -312,7 +313,7 @@ export default function LandpageConteudo() {
                                 <div className="grid justify-items-center min-w-x2">
                                     <Image
                                         quality={100}
-                                        src="/cruz.png"
+                                        src="/cruz.webp"
                                         width={30}
                                         height={30}
                                         alt="cruz"
@@ -356,7 +357,7 @@ export default function LandpageConteudo() {
 
                     <Image
                         quality={100}
-                        src="/PILARES.png"
+                        src="/PILARES.webp"
                         width={400}
                         height={400}
                         alt="Picture of the author"
@@ -380,7 +381,7 @@ export default function LandpageConteudo() {
                     <Image
                         quality={100}
                         className="rounded-lg border-2 border-[#970002]"
-                        src="/feedback2.jpg"
+                        src="/feedback2.webp"
                         width={250}
                         height={250}
                         alt="Picture of the author"
@@ -390,7 +391,7 @@ export default function LandpageConteudo() {
                     <Image
                         quality={100}
                         className="rounded-lg border-2 border-[#970002]"
-                        src="/feedback3.jpg"
+                        src="/feedback3.webp"
                         width={250}
                         height={250}
                         alt="Picture of the author"
@@ -400,7 +401,7 @@ export default function LandpageConteudo() {
                     <Image
                         quality={100}
                         className="rounded-lg border-2 border-[#970002]"
-                        src="/feedback5.jpg"
+                        src="/feedback5.webp"
                         width={250}
                         height={250}
                         alt="Picture of the author"
@@ -426,7 +427,7 @@ export default function LandpageConteudo() {
 
                             <img
                                 className="rounded-lg border-2 border-[#970002]"
-                                src="/juntas4.png"
+                                src="/juntas4.webp"
                                 width={550}
                                 height={550}
                                 alt="Picture of the author"
