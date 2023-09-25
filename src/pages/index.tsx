@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import LandpageConteudo from "../components/templates/conteudoLP";
 import Image from "next/image";
 
-export default function landpage() {
+export default function Landpage() {
 
 
 
@@ -89,7 +89,7 @@ return (
                     
                     <div>
 
-                        <a href="https://copps.me/ENC-FFF2B335" target="_blank" rel="stylesheet" className="relative p-0.5 inline-flex items-center justify-center font-semibold overflow-hidden group rounded-sm">
+                        <a href="https://copps.me/ENC-FFF2B335" target="_blank" rel="noreferrer" className="relative p-0.5 inline-flex items-center justify-center font-semibold overflow-hidden group rounded-sm">
                             <span className="w-full h-full bg-gradient-to-br from-[#E95B47] via-[#E95B47] to-[#E95B47] group-hover:from-[#E95B47] group-hover:via-[#E95B47] group-hover:to-[#E95B47] absolute"></span>
                             <span className="relative px-10 py-2 transition-all ease-out bg-[#ffe2de] text-[#E95B47] hover:text-white rounded-sm group-hover:bg-opacity-0 duration-400">
                                 <span className="relative">Fazer parte</span>
@@ -120,7 +120,7 @@ return (
                         </div>
 
                         <div>
-                            <svg onClick={toggleMenu} xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" className="bi bi-list menu-button" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/> </svg>
+                            <svg onClick={toggleMenu} xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" className="bi bi-list menu-button" viewBox="0 0 16 16"> <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/> </svg>
                         </div>
                     </nav>
 

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
+
 
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -13,13 +14,13 @@ export default function carousel () {
     <div className='pl-5 max-w-7xl'>
       <Swiper
         className=''
-        modules={[Navigation, Pagination, Autoplay,]}
+        modules={[Navigation, Pagination, Autoplay]}
         autoplay={{ delay: 7000, disableOnInteraction: false }}
         spaceBetween={50}
         slidesPerView={1}
         pagination={{ clickable: true }}
         onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSwiper={(swiper: any) => console.log(swiper)}
       >
 
         <div>

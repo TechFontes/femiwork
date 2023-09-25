@@ -130,7 +130,7 @@ return (
             
             <div className="grid justify-items-center pb-4 lg:pb-0 min-w-x2 -mt-1">
                 <svg width="50" height="50" className="bi bi-clock text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
-                    <path  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 10c0 3.976-7 11-7 11s-7-7.024-7-11 3.134-7 7-7 7 3.024 7 7z"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                    <path  stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 10c0 3.976-7 11-7 11s-7-7.024-7-11 3.134-7 7-7 7 3.024 7 7z"/><circle cx="12" cy="10" r="3" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
                 </svg>
 
                 <div className="text-center -mt-1.5">
@@ -272,7 +272,7 @@ return (
         <iframe src="https://player.vimeo.com/video/856793751?h=bcabf58661" width="320" height="569" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
     </div>
 
-    <a href="https://copps.me/ENC-FFF2B335" target="_blank" rel="stylesheet" className="relative mt-14 p-0.5 inline-flex items-center justify-center font-semibold overflow-hidden group rounded-lg">
+    <a href="https://copps.me/ENC-FFF2B335" target="_blank" rel="noreferrer" className="relative mt-14 p-0.5 inline-flex items-center justify-center font-semibold overflow-hidden group rounded-lg">
         <span className="w-full h-full bg-gradient-to-br from-[#E95B47] via-[#E95B47] to-[#E95B47] group-hover:from-[#E95B47] group-hover:via-[#E95B47] group-hover:to-[#E95B47] absolute"></span>
         <span className="relative px-10 py-2 transition-all ease-out bg-[#ffe2de] text-[#E95B47] hover:text-white rounded-lg group-hover:bg-opacity-0 duration-400">
             <span className="relative">Junte-se a nós!</span>
@@ -304,7 +304,7 @@ return (
             
                     <div className="grid justify-items-center min-w-x2">
                         
-                        <svg xmlns="http://www.w3.org/2000/svg" className="" width="50" height="50" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="24" y="100" width="56" height="56" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><rect x="160" y="40" width="64" height="64" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><rect x="160" y="152" width="64" height="64" rx="8" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><line x1="80" y1="128" x2="120" y2="128" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><path d="M160,184H144a23.9,23.9,0,0,1-24-24V96a23.9,23.9,0,0,1,24-24h16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="" width="50" height="50" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="24" y="100" width="56" height="56" rx="8" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/><rect x="160" y="40" width="64" height="64" rx="8" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/><rect x="160" y="152" width="64" height="64" rx="8" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/><line x1="80" y1="128" x2="120" y2="128" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/><path d="M160,184H144a23.9,23.9,0,0,1-24-24V96a23.9,23.9,0,0,1,24-24h16" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/></svg>
                         
                         <h2 className="pt-2 text-[#970002] font-semibold text-lg">Networking</h2>
                         <h3 className="font-normal">Sobre Networking</h3>
@@ -326,7 +326,7 @@ return (
 
                     <div className="grid justify-items-center min-w-x2">
                         
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><line x1="88" y1="232" x2="168" y2="232" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><path d="M78.7,167A79.5,79.5,0,0,1,48,104.5C47.8,61.1,82.7,25,126.1,24a80,80,0,0,1,51.3,142.9A24.2,24.2,0,0,0,168,186v6a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8v-6A24.4,24.4,0,0,0,78.7,167Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/><path d="M136.1,56.8a47.9,47.9,0,0,1,39.2,39.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><line x1="88" y1="232" x2="168" y2="232" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/><path d="M78.7,167A79.5,79.5,0,0,1,48,104.5C47.8,61.1,82.7,25,126.1,24a80,80,0,0,1,51.3,142.9A24.2,24.2,0,0,0,168,186v6a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8v-6A24.4,24.4,0,0,0,78.7,167Z" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/><path d="M136.1,56.8a47.9,47.9,0,0,1,39.2,39.1" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="8"/></svg>
 
                         <h2 className="pt-2 text-[#970002] font-semibold text-lg">Auto Conhecimento</h2>
                         <h3 className="font-normal">Sobre auto-conhecimento</h3>
@@ -340,7 +340,7 @@ return (
 
         {tela<=768 &&
             <div className='pt-20 pb-10 w-full flex justify-center'>
-                <a href="https://copps.me/ENC-FFF2B335" target="_blank" rel="stylesheet" className="relative p-0.5 inline-flex items-center justify-center font-semibold overflow-hidden group rounded-sm">
+                <a  href="https://copps.me/ENC-FFF2B335" target="_blank" rel="noreferrer" className="relative p-0.5 inline-flex items-center justify-center font-semibold overflow-hidden group rounded-sm">
                     <span className="w-full h-full bg-gradient-to-br from-[#E95B47] via-[#E95B47] to-[#E95B47] group-hover:from-[#E95B47] group-hover:via-[#E95B47] group-hover:to-[#E95B47] absolute"></span>
                     <span className="relative px-10 py-2 transition-all ease-out bg-[#ffe2de] text-[#E95B47] hover:text-white rounded-sm group-hover:bg-opacity-0 duration-400">
                         <span className="relative">Fazer parte</span>
