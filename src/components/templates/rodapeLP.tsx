@@ -49,7 +49,7 @@ return (
                     <Image
                     className=''
                     quality={100}
-                    src="/BB.png"
+                    src="/BB.webp"
                     width={240}
                     height={240}
                     alt="cruz"

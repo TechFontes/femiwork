@@ -46,7 +46,7 @@ return (
 <div className="bg-gray-500 w-full h-screen">
 <div  id="inicio" className="flex justify-center bg-white">
 
-    
+
 
 <div onClick={funcaoFecharMenu} className="grid justify-items-center w-full">
 
@@ -59,7 +59,7 @@ return (
                 
                     <Link to="inicio" smooth={true} duration={1000} className="cursor-pointer">
                         <Image
-                            src="/BB.png"
+                            src="/BB.webp"
                             width={208}
                             height={208}
                             alt="Logo da empresa"
@@ -113,7 +113,7 @@ return (
                             duration={1000} 
                             className="cursor-pointer">
                                 <Image
-                                    src="/BB.png"
+                                    src="/BB.webp"
                                     width={180}
                                     height={180}
                                     alt="Picture of the author"
