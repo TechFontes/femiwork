@@ -70,7 +70,6 @@ export default function LandpageConteudo() {
                                     <h2 className='sm:text-7xl'>MULHERES</h2>
                                     <h2 className='sm:text-7xl'>PRÓSPERAS!</h2>
 
-                                   <Icon nameIcon= 'IconFacebook' widhtIcon = '60' heightIcon = '60' fillIcon = 'black' classNameIcon = 'p-0'/>
                                 </div>
 
 
