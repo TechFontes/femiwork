@@ -30,9 +30,8 @@ export default function carousel () {
             
             <div className='flex pt-10'>
               
-              <Image
+              <img
                 className='rounded-3xl'
-                quality={100}
                 src="/Mayne.png"
                 width={64}
                 height={64}
@@ -62,9 +61,8 @@ export default function carousel () {
             
             <div className='flex pt-16 lg:pt-10'>
               
-              <Image
+              <img
                 className='rounded-3xl'
-                quality={100}
                 src="/Isabela.png"
                 width={64}
                 height={64}
@@ -74,9 +72,8 @@ export default function carousel () {
               <div className='pl-2'>
                 <h2 className='text-[#970002] font-semibold'>Isabela de Bortoli</h2>
                 <p className='text-xs text-gray-500'>fundadora</p>
-                <Image
+                <img
                   className='rounded-3xl mt-4'
-                  quality={100}
                   src="/FG.png"
                   width={64}
                   height={64}
@@ -94,9 +91,8 @@ export default function carousel () {
             
             <div className='flex pt-16 lg:pt-10'>
               
-              <Image
+              <img
                 className='rounded-3xl'
-                quality={100}
                 src="/Juliana.png"
                 width={64}
                 height={64}
@@ -106,9 +102,8 @@ export default function carousel () {
               <div className='pl-2'>
                 <h2 className='text-[#970002] font-semibold'>Juliana Vilela</h2>
                 <p className='text-xs text-gray-500'>fundadora</p>
-                <Image
+                <img
                   className='rounded-3xl mt-4'
-                  quality={100}
                   src="/FG.png"
                   width={64}
                   height={64}
@@ -126,9 +121,8 @@ export default function carousel () {
             
             <div className='flex pt-4 lg:pt-5'>
               
-              <Image
+              <img
                 className='rounded-3xl'
-                quality={100}
                 src="/Lorena.png"
                 width={64}
                 height={64}
@@ -138,9 +132,8 @@ export default function carousel () {
               <div className='pl-2'>
                 <h2 className='text-[#970002] font-semibold'>Lorena Provázio</h2>
                 <p className='text-xs text-gray-500'>fundadora</p>
-                <Image
+                <img
                   className='rounded-3xl mt-4'
-                  quality={100}
                   src="/FG.png"
                   width={64}
                   height={64}
