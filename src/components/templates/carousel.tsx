@@ -11,7 +11,7 @@ import 'swiper/css/scrollbar';
 
 export default function carousel () {
   return (
-    <div className='pl-5 max-w-7xl'>
+    <div className='ml-10 lg:ml-5 max-w-7xl'>
       <Swiper
         className=''
         modules={[Navigation, Pagination, Autoplay]}
@@ -30,7 +30,8 @@ export default function carousel () {
             
             <div className='flex pt-10'>
               
-              <img
+              <Image
+                quality={100}
                 className='rounded-3xl'
                 src="/Mayne.webp"
                 width={64}
@@ -43,11 +44,11 @@ export default function carousel () {
                 <p className='text-xs text-gray-500'>fundadora</p>
                 <Image
                   className='rounded-3xl mt-4'
-                  quality={100}
                   src="/FG.webp"
                   width={64}
                   height={64}
                   alt="cruz"
+                  quality={100}
                 />
               </div>
             
@@ -61,7 +62,8 @@ export default function carousel () {
             
             <div className='flex pt-16 lg:pt-10'>
               
-              <img
+              <Image
+                quality={100}
                 className='rounded-3xl'
                 src="/Isabela.webp"
                 width={64}
@@ -72,7 +74,8 @@ export default function carousel () {
               <div className='pl-2'>
                 <h2 className='text-[#970002] font-semibold'>Isabela de Bortoli</h2>
                 <p className='text-xs text-gray-500'>fundadora</p>
-                <img
+                <Image
+                  quality={100}
                   className='rounded-3xl mt-4'
                   src="/FG.webp"
                   width={64}
@@ -91,7 +94,8 @@ export default function carousel () {
             
             <div className='flex pt-16 lg:pt-10'>
               
-              <img
+              <Image
+                quality={100}
                 className='rounded-3xl'
                 src="/Juliana.webp"
                 width={64}
@@ -102,7 +106,8 @@ export default function carousel () {
               <div className='pl-2'>
                 <h2 className='text-[#970002] font-semibold'>Juliana Vilela</h2>
                 <p className='text-xs text-gray-500'>fundadora</p>
-                <img
+                <Image
+                  quality={100}
                   className='rounded-3xl mt-4'
                   src="/FG.webp"
                   width={64}
@@ -121,9 +126,10 @@ export default function carousel () {
             
             <div className='flex pt-4 lg:pt-5'>
               
-              <img
+              <Image
+                quality={100}
                 className='rounded-3xl'
-                src="/Lorena.webp"
+                src="/Lorena2.jpg"
                 width={64}
                 height={64}
                 alt="cruz"
@@ -132,7 +138,8 @@ export default function carousel () {
               <div className='pl-2'>
                 <h2 className='text-[#970002] font-semibold'>Lorena Provázio</h2>
                 <p className='text-xs text-gray-500'>fundadora</p>
-                <img
+                <Image
+                  quality={100}
                   className='rounded-3xl mt-4'
                   src="/FG.webp"
                   width={64}

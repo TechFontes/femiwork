@@ -424,11 +424,12 @@ export default function LandpageConteudo() {
 
                         <div className="grid items-center">
 
-                            <img
+                            <Image
                                 className="rounded-lg border-2 border-[#970002]"
                                 src="/juntas4.webp"
                                 width={550}
                                 height={550}
+                                quality={100}
                                 alt="Picture of the author"
                             />
                         </div>
@@ -437,7 +438,7 @@ export default function LandpageConteudo() {
                             <div>
                                 {tela >= 768 &&
                                     <div>
-                                        <h3 className="pl-5 max-w-sm font-semibold text-center md:text-left text-4xl lg:text-5xl">Quem somos?</h3>
+                                        <h3 className="ml-10 lg:ml-5 max-w-sm font-semibold text-center md:text-left text-4xl lg:text-5xl">Quem somos?</h3>
                                     </div>
                                 }
                                 {tela < 768 &&
@@ -447,7 +448,7 @@ export default function LandpageConteudo() {
                             </div>
 
 
-                            <div className="max-w-carousel lg:max-w-lg">
+                            <div className="max-w-carousel md:max-w-carousel-md lg:max-w-lg">
                                 <Carousel />
                             </div>
 

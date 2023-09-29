@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import LandpageConteudo from "../components/templates/conteudoLP";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Landpage() {
 
@@ -44,6 +45,13 @@ return (
 
 
 <div className="bg-gray-500 w-full h-screen">
+
+    <Head>
+        <title>
+            FemiWork
+        </title>
+    </Head>
+    
 <div  id="inicio" className="flex justify-center bg-white">
 
 

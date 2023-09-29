@@ -5,8 +5,7 @@ export default function Document() {
     <Html>
        <Head> 
         {/* <meta name="facebook-domain-verification" content="u7a84hyw2v06n6kzn7qb2oz9tmp1we" />    */}
-        <title>FemiWork</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.webp" />
         </Head>  
       <body>
         <Main />
