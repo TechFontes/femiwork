@@ -4,7 +4,29 @@ import LandpageConteudo from "../components/templates/conteudoLP";
 import Image from "next/image";
 import LandpageRodape from "../components/templates/rodapeLP";
 
+
+
 export default function Landpage() {
+
+
+
+const [tela, setTela] = useState<number>(0)
+const [drawer, setDrawer] = useState('0')
+
+try{
+    window.addEventListener('resize', function () {
+        const x = window.screen.width;
+        const y = window.screen.height;          
+        setTela(x)
+    });
+}catch (erro){ 
+}
+
+useEffect(()=>{
+    const x = window.screen.width;
+    const y = window.screen.height;
+    setTela(x)
+},[])
 
 
 
@@ -18,7 +40,8 @@ export default function Landpage() {
                     <div className="flex flex-col mt-5 items-center  w-full ">
                         <div className="border-2 border-[#970002] rounded-full">
 
-                            <a rel="noreferrer" href="/" target="_blank">
+                            <a className="w-36 h-36" rel="noreferrer" href="/" target="_blank">
+                                {tela>=768?
                                 <Image
                                     className=" bg-white rounded-full p-1"
                                     src="/favicon.webp"
@@ -28,13 +51,24 @@ export default function Landpage() {
                                     priority
                                     quality={100}
                                 />
+                                :
+                                <Image
+                                    className=" bg-white rounded-full p-1"
+                                    src="/favicon.webp"
+                                    alt="Next.js Logo"
+                                    width={80}
+                                    height={80}
+                                    priority
+                                    quality={100}
+                                />
+                                }
                             </a>
 
                         </div>
 
                         <div className="text-[#970002] text-center mt-3 ">
-                            <h2 className="font-serif text-4xl">FemiWork</h2>
-                            <h2 className="text-[#b62f31]">@femiworkoficial</h2>
+                            <h2 className="font-serif text-3xl md:text-4xl">FemiWork</h2>
+                            <h2 className="text-[#b62f31] text-sm md:text-base">@femiworkoficial</h2>
                         </div>
 
 
@@ -107,7 +141,7 @@ export default function Landpage() {
 
             <div className="w-full border-t-2 bg-gradient-to-l from-[#ffcecf] via-[#FFFFFF] to-[#ffcecf] background-animate border-[#970002]/80 shadow-y">
                 <div className="grid justify-items-center">
-                    <div className='md:pt-5 px-2 pb-5 max-w-7xl'>
+                    <div className='md:pt-5 px-2 md:pb-5 max-w-7xl'>
 
                         <div className='flex py-10 justify-center items-center md:gap-44'>
                             <a rel="noreferrer" href="/" target="_blank">
