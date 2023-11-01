@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import Image from "next/image";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import LiteVimeoEmbed from "@slightlyoff/lite-vimeo";
 // Import Swiper styles
 import 'swiper/css';
 import LandpageRodape from "./rodapeLP";
@@ -269,6 +269,7 @@ export default function LandpageConteudo() {
             <div className="w-full flex flex-col items-center justify-center pt-16">
                 <div className="border-4 border-[#970002] rounded-md">
                     <iframe src="https://player.vimeo.com/video/856793751?h=bcabf58661" width="320" height="569" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+
                 </div>
 
                 <a href="https://copps.me/ENC-FFF2B335" target="_blank" rel="noreferrer" className="relative mt-14 p-0.5 inline-flex items-center justify-center font-semibold overflow-hidden group rounded-lg">
@@ -278,6 +279,8 @@ export default function LandpageConteudo() {
                     </span>
                 </a>
             </div>
+
+
 
 
 
