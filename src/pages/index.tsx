@@ -66,7 +66,7 @@ return (
                 <nav className={`w-full max-w-7xl backdrop-blur-lg backdrop-filter bg-opacity-30 px-5 lg:px-14 flex justify-between items-center`}>
                 
                     <Link to="inicio" smooth={true} duration={1000} className="cursor-pointer">
-                        <Image
+                        <img
                             src="/BB.webp"
                             width={208}
                             height={208}
@@ -120,7 +120,7 @@ return (
                             smooth={true} 
                             duration={1000} 
                             className="cursor-pointer">
-                                <Image
+                                <img
                                     src="/BB.webp"
                                     width={180}
                                     height={180}
