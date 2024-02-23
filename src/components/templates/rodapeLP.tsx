@@ -62,7 +62,7 @@ return (
     </div>
 
     <div className='text-xs text-center px-4 pb-2'>
-        <p className=''>© 2023 Criado por <a className="text-blue-500 hover:text-black" rel="noreferrer" href="https://www.instagram.com/mktmarcante/" target="_blank">MakertingMarcante</a></p>
+        <p className=''>© 2024 Criado por <a className="text-blue-500 hover:text-black" rel="noreferrer" href="https://www.instagram.com/mktmarcante/" target="_blank">MakertingMarcante</a></p>
     </div>
 
 </div>
