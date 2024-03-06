@@ -290,7 +290,7 @@ export default function LandpageConteudo() {
                         <div>
                             <h3 className="font-semibold text-[#060303] text-center lg:text-start text-xl">Jornada semestral </h3>
                         </div>
-
+                        <Cardtexto texto='6 encontros presenciais (1 por mês) , com muita conexão, fé, autoconhecimento e desenvolvimento, além de rodadas de network'/>
                         <Cardtexto texto='6 encontros online (1 por mês) com feedbacks de desempenho e de solução de dúvidas entre as filiadas sobre os temas desenvolvidos no encontro presencial'/>
                         <Cardtexto texto='Face to face (encontros com outras filiadas para poder estreitar os laços e  gerar novas parcerias ou venda do seu produto ou serviço, bem como poder ser indicada por elas)'/>
                         <Cardtexto texto='Divulgação do seu trabalho em nosso Instagram e na nossa página'/>
