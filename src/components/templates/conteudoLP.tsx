@@ -279,7 +279,7 @@ export default function LandpageConteudo() {
 
 
 
-            <div className="w-full flex flex-col items-center justify-start gap-10 pt-10 md:pt-20 pb-6">
+            <div id='vantagens' className="w-full flex flex-col items-center justify-start gap-10 pt-10 md:pt-20 pb-6">
                 <h2 className="text-[#970002] text-3xl md:text-4xl font-semibold max-w-xl text-center">
                     Participando da comunidade você terá acesso a:
                 </h2>

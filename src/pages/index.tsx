@@ -77,8 +77,8 @@ return (
                 
                     <div className="lg:gap-14 gap-5 flex text-center lg:text-lg text-md"> 
 
-                        <Link to="eventos" smooth={true} duration={1000} className="cursor-pointer">
-                            Eventos
+                        <Link to="vantagens" smooth={true} duration={1000} className="cursor-pointer">
+                            Vantagens
                         </Link>
 
                         
