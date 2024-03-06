@@ -279,7 +279,7 @@ export default function LandpageConteudo() {
 
 
 
-            <div className="w-full flex flex-col items-center justify-center gap-10 pt-10 md:pt-20 pb-6">
+            <div className="w-full flex flex-col items-center justify-start gap-10 pt-10 md:pt-20 pb-6">
                 <h2 className="text-[#970002] text-3xl md:text-4xl font-semibold max-w-xl text-center">
                     Participando da comunidade você terá acesso a:
                 </h2>
@@ -301,7 +301,7 @@ export default function LandpageConteudo() {
 
 
 
-                    <div className="flex flex-col gap-3 py-4 max-w-lg">
+                    <div className="flex flex-col gap-3 pb-2 max-w-lg align-start">
 
                         <div>
                             <h3 className="font-semibold text-[#060303] text-center lg:text-start text-xl">Jornada trimestral  </h3>
