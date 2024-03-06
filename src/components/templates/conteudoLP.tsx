@@ -75,7 +75,7 @@ export default function LandpageConteudo() {
 
 
                                 <div className='pt-14 pl-1'>
-                                    <Link to="eventos" smooth={true} duration={1000} className="cursor-pointer">
+                                    <Link to="vantagens" smooth={true} duration={1000} className="cursor-pointer">
                                         <button className="relative inline-flex items-center justify-center py-1.5 px-12 mx-1 font-semibold overflow-hidden text-[#FFE0C8] hover:text-[#C35850] rounded-md shadow-2xl group border border-[#FFE0C8]">
 
                                             <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#ffc8c4] to-[#FFFFFF] group-hover:opacity-100"></span>

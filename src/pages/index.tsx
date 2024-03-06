@@ -147,8 +147,8 @@ return (
 
             <div  className={`menu w-full ${!menuOpen ? 'show-menu' : ''}`}>
                     <div  className='grid gap-5 text-lg border-x-2 border-b-2 rounded-b-lg border-[#C35850] justify-items-center py-4 mx-10 css-window-4'>
-                        <Link onClick={toggleMenu} to="eventos" smooth={true} duration={1000} className="cursor-pointer text-black">
-                            Eventos
+                        <Link onClick={toggleMenu} to="vantagens" smooth={true} duration={1000} className="cursor-pointer text-black">
+                            Vantagens
                         </Link>
 
                         
